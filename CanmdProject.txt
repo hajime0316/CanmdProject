@@ -1,0 +1,130 @@
+Configuration	CanmdProject
+STM32CubeMX 	5.2.1
+Date	06/13/2019
+MCU	STM32F303CCTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+CAN	Master	CAN_RX	PA11
+CAN	Master	CAN_TX	PA12
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM1	PWM Generation CH1 CH1N	TIM1_CH1	PA8
+TIM1	PWM Generation CH1 CH1N	TIM1_CH1N	PB13
+TIM1	PWM Generation CH2 CH2N	TIM1_CH2	PA9
+TIM1	PWM Generation CH2 CH2N	TIM1_CH2N	PB14
+TIM2	Encoder Mode	TIM2_CH1	PA0
+TIM2	Encoder Mode	TIM2_CH2	PA1
+TIM3	Encoder Mode	TIM3_CH1	PA6
+TIM3	Encoder Mode	TIM3_CH2	PA7
+TIM8	PWM Generation CH1 CH1N	TIM8_CH1	PB6
+TIM8	PWM Generation CH1 CH1N	TIM8_CH1N	PB3
+TIM8	PWM Generation CH2 CH2N	TIM8_CH2	PB8
+TIM8	PWM Generation CH2 CH2N	TIM8_CH2N	PB4
+USART3	Asynchronous	USART3_RX	PB11
+USART3	Asynchronous	USART3_TX	PB10
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13	GPIO_Input	DIP_SW_1
+3	PC14-OSC32_IN	GPIO_Input	DIP_SW_2
+4	PC15-OSC32_OUT	GPIO_Input	DIP_SW_3
+5	PF0-OSC_IN	GPIO_Input	DIP_SW_4
+10	PA0	TIM2_CH1	
+11	PA1	TIM2_CH2	
+14	PA4	GPIO_Output	LED_R
+15	PA5	GPIO_Output	LED_B
+16	PA6	TIM3_CH1	
+17	PA7	TIM3_CH2	
+21	PB10	USART3_TX	
+22	PB11	USART3_RX	
+26	PB13	TIM1_CH1N	
+27	PB14	TIM1_CH2N	
+29	PA8	TIM1_CH1	
+30	PA9	TIM1_CH2	
+32	PA11	CAN_RX	
+33	PA12	CAN_TX	
+34	PA13	SYS_JTMS-SWDIO	
+37	PA14	SYS_JTCK-SWCLK	
+39	PB3	TIM8_CH1N	
+40	PB4	TIM8_CH2N	
+42	PB6	TIM8_CH1	
+45	PB8	TIM8_CH2	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+CAN	Master	CAN_RX	PA11
+CAN	Master	CAN_TX	PA12
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM1	PWM Generation CH1 CH1N	TIM1_CH1	PA8
+TIM1	PWM Generation CH1 CH1N	TIM1_CH1N	PB13
+TIM1	PWM Generation CH2 CH2N	TIM1_CH2	PA9
+TIM1	PWM Generation CH2 CH2N	TIM1_CH2N	PB14
+TIM2	Encoder Mode	TIM2_CH1	PA0
+TIM2	Encoder Mode	TIM2_CH2	PA1
+TIM3	Encoder Mode	TIM3_CH1	PA6
+TIM3	Encoder Mode	TIM3_CH2	PA7
+TIM8	PWM Generation CH1 CH1N	TIM8_CH1	PB6
+TIM8	PWM Generation CH1 CH1N	TIM8_CH1N	PB3
+TIM8	PWM Generation CH2 CH2N	TIM8_CH2	PB8
+TIM8	PWM Generation CH2 CH2N	TIM8_CH2N	PB4
+USART3	Asynchronous	USART3_RX	PB11
+USART3	Asynchronous	USART3_TX	PB10
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13	GPIO_Input	DIP_SW_1
+3	PC14-OSC32_IN	GPIO_Input	DIP_SW_2
+4	PC15-OSC32_OUT	GPIO_Input	DIP_SW_3
+5	PF0-OSC_IN	GPIO_Input	DIP_SW_4
+10	PA0	TIM2_CH1	
+11	PA1	TIM2_CH2	
+14	PA4	GPIO_Output	LED_R
+15	PA5	GPIO_Output	LED_B
+16	PA6	TIM3_CH1	
+17	PA7	TIM3_CH2	
+21	PB10	USART3_TX	
+22	PB11	USART3_RX	
+26	PB13	TIM1_CH1N	
+27	PB14	TIM1_CH2N	
+29	PA8	TIM1_CH1	
+30	PA9	TIM1_CH2	
+32	PA11	CAN_RX	
+33	PA12	CAN_TX	
+34	PA13	SYS_JTMS-SWDIO	
+37	PA14	SYS_JTCK-SWCLK	
+39	PB3	TIM8_CH1N	
+40	PB4	TIM8_CH2N	
+42	PB6	TIM8_CH1	
+45	PB8	TIM8_CH2	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : CanmdProject
+Project Folder : C:\Users\hajime\Documents\SystemWorkbench\CanmdProject
+Toolchain / IDE : SW4STM32
+Firmware Package Name and Version : STM32Cube FW_F3 V1.10.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
